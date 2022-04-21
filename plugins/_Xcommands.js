@@ -41,7 +41,8 @@ if (Config.WORKTYPE == 'private') {
             }
         );
        var MENMSG = '\n*🐺 X-TROID NIMA EDITION 🐺*\n\n'+ pro +'\n'+ CMD_HELP
-        await message.client.sendMessage(message.jid,logo, MessageType.image, {mimetype: logo.png, caption: MENMSG} );
+       await new Promise(r=> setTimeout(r,2000));
+       await message.client.sendMessage(message.jid,logo, MessageType.image, {mimetype: logo.png, caption: MENMSG} );
 
                 
  
@@ -110,6 +111,7 @@ else if (Config.WORKTYPE == 'public') {
         );
         
         var MENMSG = '\n*🐺 X-TROID NIMA EDITION 🐺*\n\n'+ pro +'\n'+ CMD_HELP
+        await new Promise(r=> setTimeout(r,2000));
         await message.client.sendMessage(message.jid,logo, MessageType.image, {mimetype: logo.png, caption: MENMSG} );     
     } else {
         var CMD_HELP = '';
@@ -171,7 +173,9 @@ XTroid.addCMD({pattern: 'menu ?(.*)', fromMe: true, dontAddCMDList: true}, (asyn
             }
         );
         
+      
         var MENMSG = '\n*🐺 X-TROID NIMA EDITION 🐺*\n\n'+ pro +'\n'+ CMD_HELP
+        await new Promise(r=> setTimeout(r,2000));
         await message.client.sendMessage(message.jid,logo, MessageType.image, {mimetype: logo.png, caption: MENMSG} );     
     } else {
         var CMD_HELP = '';
