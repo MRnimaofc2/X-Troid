@@ -5,6 +5,7 @@ const Config = require('../config');
 XTroid.addCMD({ pattern: 'artlist', fromMe: false, desc: 'GET ARTS', dontAddCMDList: false, deleteCommand: false  }, (async (message, match) => {
 
     await message.sendMessage(`\n   🎉🌀 X-TROID ART LIST 🌀🎉 
+
 🎭   .art1
 🎭   .art2
 🎭   .art3
