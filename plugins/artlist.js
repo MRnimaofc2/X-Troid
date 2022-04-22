@@ -2,7 +2,7 @@ const { MessageType, GroupSettingChange, ChatModification, WAConnectionTest } = 
 const XTroid = require('../events');
 const Config = require('../config');
 
-XTroid.addCMD({ pattern: 'artlist', fromMe: false, desc:'ART_DESC', dontAddCMDList: false, deleteCommand: false  }, (async (message, match) => {
+XTroid.addCMD({ pattern: 'artlist', fromMe: false, desc: Lang.ART_DESC, dontAddCMDList: false, deleteCommand: false  }, (async (message, match) => {
 
     await message.sendMessage(`\n   🎉🌀 X-TROID ART LIST 🌀🎉 
 
