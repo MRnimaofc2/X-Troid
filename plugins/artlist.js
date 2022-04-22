@@ -1,8 +1,10 @@
 const { MessageType, GroupSettingChange, ChatModification, WAConnectionTest } = require('@adiwajshing/baileys');
 const XTroid = require('../events');
 const Config = require('../config');
+const Language = require('../language');
+const Lang = Language.getString('artlist');
 
-XTroid.addCMD({ pattern: 'artlist', fromMe: false, desc: 'artlist', dontAddCMDList: false, deleteCommand: false  }, (async (message, match) => {
+XTroid.addCMD({ pattern: 'artlist', fromMe: false, desc:Lang.ART_DESC, dontAddCMDList: false, deleteCommand: false  }, (async (message, match) => {
 
     await message.sendMessage(`\n   🎉🌀 X-TROID ART LIST 🌀🎉 
 
