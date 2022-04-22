@@ -516,7 +516,7 @@
         },
         
         "artlist":{
-            "SEND_ART":"Send x-troid art list"
+            "ART_DESC":"Send x-troid art list"
         },
         "github": {
             "GİTHUB_DESC": "Collects github information from the given username.\n⌨️ Example: .github lasiyaWA",
