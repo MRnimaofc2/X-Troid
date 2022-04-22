@@ -8,5 +8,5 @@ XTroid.addCMD({pattern: 'alive', fromMe: FM, deleteCommand: true,}, (async (mess
 
 var lasi = await axios.get(`${Config.ALIVEIMG}`, { responseType: 'arraybuffer' })
 await new Promise(r=> setTimeout(r,2000));
-await message.client.sendMessage(message.jid, Buffer.from(lasi.data), MessageType.image, {mimetype: Mimetype.png, caption: '             '+Config.ALIVETEXT+'\n\n*x-ᴛʀᴏɪᴅ ᴛᴇsᴛ ᴇᴅɪᴛɪᴏɴ | ᴍʀ ɴɪᴍᴀ*'})
+await message.client.sendMessage(message.jid, Buffer.from(lasi.data), MessageType.image, {mimetype: Mimetype.png, caption: '          '+Config.ALIVETEXT+'\n\n*x-ᴛʀᴏɪᴅ ᴛᴇsᴛ ᴇᴅɪᴛɪᴏɴ | ᴍʀ ɴɪᴍᴀ*'})
     }));
