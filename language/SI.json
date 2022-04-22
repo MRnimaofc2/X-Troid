@@ -515,7 +515,7 @@
             "ARAT": "සෙවූ ගීතය:"
         },
         "artlist":{
-            "SEND_ART":"x-troid ආර්ට් ලිස්ට් එක එවයි"
+            "ART_DESC":"x-troid ආර්ට් ලිස්ට් එක එවයි"
         },
         "github": {
             "GİTHUB_DESC": "Collects github information from the given username.\n⌨️ Example: .github lasiyaWA",
