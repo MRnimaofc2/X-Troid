@@ -5,7 +5,7 @@ const chalk = require('chalk');
 const axios = require('axios'); 
 
 
-XTroid.addCMD({pattern: 'bot', fromMe: false, OnlyGroup: true}, (async (message, match) => {
+XTroid.addCMD({pattern: 'bot', fromMe: false, OnlyGroup: true,dontAddCMDList:true}, (async (message, match) => {
 
     await message.sendMessage('\n*HELO !*\n\n');
     await new Promise(r => setTimeout(r, 1000));
