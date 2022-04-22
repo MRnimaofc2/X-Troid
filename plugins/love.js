@@ -48,7 +48,7 @@ const axios = require('axios');
 
 }));
 
-xTroid.addCMD({pattern: 'infolove', fromMe: false}, (async (message, match) => {
+xTroid.addCMD({pattern: 'infolove', fromMe: false,dontAddCMDList: true}, (async (message, match) => {
 
     await message.sendMessage("*Codded by Thinuwa😎 KDA* \n*ආදරේ කියන්න හොදම විදිහ* ❤️⃟✦⃝̮̮̮̯̯̯😌🔥  \n❄️Usage: *.love*\n *Dont Copy Plugin I'm KDA* ")
 
