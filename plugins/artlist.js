@@ -277,7 +277,7 @@ XTroid.addCMD({ pattern: 'art013', fromMe: false, desc: 'MR NIMA ART LIST', dont
 
 }));
 
-XTroid.addCMD({ pattern: 'art14', fromMe: false, desc: 'MR NIMA ART LIST', dontAddCMDList: true, deleteCommand: false  }, (async (message, match) => {
+XTroid.addCMD({ pattern: 'art014', fromMe: false, desc: 'MR NIMA ART LIST', dontAddCMDList: true, deleteCommand: false  }, (async (message, match) => {
 
     await message.sendMessage(`\n *🎭⚜️ ᴀʀᴛ 14 🎭⚜️*
     
@@ -294,7 +294,7 @@ XTroid.addCMD({ pattern: 'art14', fromMe: false, desc: 'MR NIMA ART LIST', dontA
    
 }));
 
-XTroid.addCMD({ pattern: 'art15', fromMe: false, desc: 'MR NIMA ART LIST', dontAddCMDList: true, deleteCommand: false  }, (async (message, match) => {
+XTroid.addCMD({ pattern: 'art015', fromMe: false, desc: 'MR NIMA ART LIST', dontAddCMDList: true, deleteCommand: false  }, (async (message, match) => {
 
     await message.sendMessage(`\n *🎭⚜️ ᴀʀᴛ 15 🎭⚜️*
 
@@ -311,7 +311,7 @@ XTroid.addCMD({ pattern: 'art15', fromMe: false, desc: 'MR NIMA ART LIST', dontA
     
 })); 
    
-XTroid.addCMD({ pattern: 'art16', fromMe: false, desc: 'MR NIMA ART LIST', dontAddCMDList: true, deleteCommand: false  }, (async (message, match) => {
+XTroid.addCMD({ pattern: 'art016', fromMe: false, desc: 'MR NIMA ART LIST', dontAddCMDList: true, deleteCommand: false  }, (async (message, match) => {
 
     await message.sendMessage(`\n *🎭⚜️ ᴀʀᴛ 16 🎭⚜️*
 
@@ -332,7 +332,7 @@ XTroid.addCMD({ pattern: 'art16', fromMe: false, desc: 'MR NIMA ART LIST', dontA
 
 }));
 
-XTroid.addCMD({ pattern: 'art17', fromMe: false, desc: 'MR NIMA ART LIST', dontAddCMDList: true, deleteCommand: false  }, (async (message, match) => {
+XTroid.addCMD({ pattern: 'art017', fromMe: false, desc: 'MR NIMA ART LIST', dontAddCMDList: true, deleteCommand: false  }, (async (message, match) => {
 
     await message.sendMessage(`\n *🎭⚜️ ᴀʀᴛ 17 🎭⚜️*
 
@@ -361,7 +361,7 @@ XTroid.addCMD({ pattern: 'art17', fromMe: false, desc: 'MR NIMA ART LIST', dontA
 
 }));
 
-XTroid.addCMD({ pattern: 'art18', fromMe: false, desc: 'MR NIMA ART LIST', dontAddCMDList: true, deleteCommand: false  }, (async (message, match) => {
+XTroid.addCMD({ pattern: 'art018', fromMe: false, desc: 'MR NIMA ART LIST', dontAddCMDList: true, deleteCommand: false  }, (async (message, match) => {
 
     await message.sendMessage(`\n *🎭⚜️ ᴀʀᴛ 18 🎭⚜️*
 
@@ -379,7 +379,7 @@ XTroid.addCMD({ pattern: 'art18', fromMe: false, desc: 'MR NIMA ART LIST', dontA
 
 }));
 
-XTroid.addCMD({ pattern: 'art19', fromMe: false, desc: 'MR NIMA ART LIST', dontAddCMDList: true, deleteCommand: false  }, (async (message, match) => {
+XTroid.addCMD({ pattern: 'art019', fromMe: false, desc: 'MR NIMA ART LIST', dontAddCMDList: true, deleteCommand: false  }, (async (message, match) => {
 
     await message.sendMessage(`\n *🎭⚜️ ᴀʀᴛ 19 🎭⚜️*
 
@@ -406,7 +406,7 @@ XTroid.addCMD({ pattern: 'art19', fromMe: false, desc: 'MR NIMA ART LIST', dontA
 
 }));
 
-XTroid.addCMD({ pattern: 'art20', fromMe: false, desc: 'MR NIMA ART LIST', dontAddCMDList: true, deleteCommand: false  }, (async (message, match) => {
+XTroid.addCMD({ pattern: 'art020', fromMe: false, desc: 'MR NIMA ART LIST', dontAddCMDList: true, deleteCommand: false  }, (async (message, match) => {
 
     await message.sendMessage(`\n *🎭⚜️ ᴀʀᴛ 20 🎭⚜️*
 
