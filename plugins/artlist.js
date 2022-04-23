@@ -257,7 +257,7 @@ XTroid.addCMD({ pattern: 'art012', fromMe: false, desc: 'MR NIMA ART LIST', dont
 
 XTroid.addCMD({ pattern: 'art013', fromMe: false, desc: 'MR NIMA ART LIST', dontAddCMDList: true, deleteCommand: false  }, (async (message, match) => {
 
-    await message.sendMessage(`\n*🎭⚜️ ᴀʀᴛ 13 🎭⚜️*
+    await message.sendMessage(`\n *🎭⚜️ ᴀʀᴛ 13 🎭⚜️*
 
 
 ╭━━━━━━━╮
@@ -279,30 +279,33 @@ XTroid.addCMD({ pattern: 'art013', fromMe: false, desc: 'MR NIMA ART LIST', dont
 
 XTroid.addCMD({ pattern: 'art14', fromMe: false, desc: 'MR NIMA ART LIST', dontAddCMDList: true, deleteCommand: false  }, (async (message, match) => {
 
-    await message.sendMessage(`\n*🎭⚜️ ᴀʀᴛ 14 🎭⚜️*
+    await message.sendMessage(`\n *🎭⚜️ ᴀʀᴛ 14 🎭⚜️*
     
-   
-. ___________________
+ . ___________________
 ▕╮╭┻┻╮╭┻┻╮╭▕╮╲
   ╯┃╭╮┃┃╭╮┃╰▕╯╭▏
 ▕╭┻┻┻┛┗┻┻┛   ▕  ╰▏
 ▕╰━━━┓┈┈┈╭╮▕╭╮▏
 ▕╭╮╰┳┳┳┳╯╰╯▕╰╯▏
-▕╰╯┈┗┛┗┛┈╭╮▕╮┈▏\n `);
+▕╰╯┈┗┛┗┛┈╭╮▕╮┈▏
+
+`);
    
    
 }));
 
 XTroid.addCMD({ pattern: 'art15', fromMe: false, desc: 'MR NIMA ART LIST', dontAddCMDList: true, deleteCommand: false  }, (async (message, match) => {
 
-    await message.sendMessage(`\n*🎭⚜️ ᴀʀᴛ 15 🎭⚜️*
+    await message.sendMessage(`\n *🎭⚜️ ᴀʀᴛ 15 🎭⚜️*
 
 
 █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
 █-----╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗-----█
 █-----║║║╠─║─║─║║║║║╠─-----█
 █-----╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝-----█
-█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█\n `);
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█  
+
+`);
 
     
     
@@ -310,7 +313,7 @@ XTroid.addCMD({ pattern: 'art15', fromMe: false, desc: 'MR NIMA ART LIST', dontA
    
 XTroid.addCMD({ pattern: 'art16', fromMe: false, desc: 'MR NIMA ART LIST', dontAddCMDList: true, deleteCommand: false  }, (async (message, match) => {
 
-    await message.sendMessage(`\n*🎭⚜️ ᴀʀᴛ 16 🎭⚜️*
+    await message.sendMessage(`\n *🎭⚜️ ᴀʀᴛ 16 🎭⚜️*
 
 
 .          🎈🎈  ☁️
@@ -321,7 +324,9 @@ XTroid.addCMD({ pattern: 'art16', fromMe: false, desc: 'MR NIMA ART LIST', dontA
          \|/
          🏠   ☁️
    ☁️         ☁️
-🌳🌹🏫🌳🏢🏢_🏢🏢🌳🌳\n `);
+🌳🌹🏫🌳🏢🏢_🏢🏢🌳🌳 
+
+`);
 
     
 
@@ -329,7 +334,7 @@ XTroid.addCMD({ pattern: 'art16', fromMe: false, desc: 'MR NIMA ART LIST', dontA
 
 XTroid.addCMD({ pattern: 'art17', fromMe: false, desc: 'MR NIMA ART LIST', dontAddCMDList: true, deleteCommand: false  }, (async (message, match) => {
 
-    await message.sendMessage(`\n*🎭⚜️ ᴀʀᴛ 17 🎭⚜️*
+    await message.sendMessage(`\n *🎭⚜️ ᴀʀᴛ 17 🎭⚜️*
 
 ░░░░░░░░░░░░░▄▐░░░░
 ░░░░░░░▄▄▄░░▄██▄░░░
@@ -346,7 +351,9 @@ XTroid.addCMD({ pattern: 'art17', fromMe: false, desc: 'MR NIMA ART LIST', dontA
 ░░░░░░░▐▌▀▄▀▄▀▐░░░░
 ░░░░░░░▐▀░░░░░░▐▌░░
 ░░░░░░░█░░░░░░░░█░░
-░░░░░░▐▌░░░░░░░░░█░\n `);
+░░░░░░▐▌░░░░░░░░░█░
+
+`);
 
    
 
@@ -356,13 +363,15 @@ XTroid.addCMD({ pattern: 'art17', fromMe: false, desc: 'MR NIMA ART LIST', dontA
 
 XTroid.addCMD({ pattern: 'art18', fromMe: false, desc: 'MR NIMA ART LIST', dontAddCMDList: true, deleteCommand: false  }, (async (message, match) => {
 
-    await message.sendMessage(`\n*🎭⚜️ ᴀʀᴛ 18 🎭⚜️*
+    await message.sendMessage(`\n *🎭⚜️ ᴀʀᴛ 18 🎭⚜️*
 
 
 📔📚           📚
 📓📚📖  😫  📚📚📓
 📕📚📚  📝  📗💻📘
-📖⁣📖📖📖📖📖📖📖📖\n `);
+📖⁣📖📖📖📖📖📖📖📖
+
+`);
 
    
 
@@ -372,7 +381,7 @@ XTroid.addCMD({ pattern: 'art18', fromMe: false, desc: 'MR NIMA ART LIST', dontA
 
 XTroid.addCMD({ pattern: 'art19', fromMe: false, desc: 'MR NIMA ART LIST', dontAddCMDList: true, deleteCommand: false  }, (async (message, match) => {
 
-    await message.sendMessage(`\n*🎭⚜️ ᴀʀᴛ 19 🎭⚜️*
+    await message.sendMessage(`\n *🎭⚜️ ᴀʀᴛ 19 🎭⚜️*
 
 
 😏/
@@ -387,7 +396,9 @@ XTroid.addCMD({ pattern: 'art19', fromMe: false, desc: 'MR NIMA ART LIST', dontA
 ╬╬
 ╬╬\😦
 ╬╬/▌
-╬╬/\ \n `);
+╬╬/\
+
+`);
 
    
 
@@ -397,7 +408,7 @@ XTroid.addCMD({ pattern: 'art19', fromMe: false, desc: 'MR NIMA ART LIST', dontA
 
 XTroid.addCMD({ pattern: 'art20', fromMe: false, desc: 'MR NIMA ART LIST', dontAddCMDList: true, deleteCommand: false  }, (async (message, match) => {
 
-    await message.sendMessage(`\n*🎭⚜️ ᴀʀᴛ 20 🎭⚜️*
+    await message.sendMessage(`\n *🎭⚜️ ᴀʀᴛ 20 🎭⚜️*
 
 
 ......(\_/)
@@ -407,7 +418,7 @@ XTroid.addCMD({ pattern: 'art20', fromMe: false, desc: 'MR NIMA ART LIST', dontA
 \_@@@@@ /
 
 
-පයර් 😂 \n `);
+පයර් 😂 \n`);
 
    
 
