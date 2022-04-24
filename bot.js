@@ -408,7 +408,7 @@ ${chalk.blue.italic('🚀 Connecting to your xtroid... Please Wait.')}`);
                 if (config.AILIZA == 'true') {
                     await conn.sendMessage(conn.user.jid, LIZA_ACTION, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '*🚀 X-Troid Nima Private  ලෙස ක්රියා කරයි!  *\n\n_මෙය ඔබගේ ලොග් සටහන් අංකය බැවින් මෙහි එන පණිවුඩ සහා අවධානයෙන් සිටින්න._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය නමුත් මෙහි නොකරන්න:)_\n\n*bot පොදු කිරීමට .වෙනස් කිරීමට* _.setvar WORK_TYPE:public_ *ඔබේ විධානය භාවිතා කරන්න.*\n\n*🚀 X-Troid Nima භාවිතා කිරීම ගැන ස්තූතියි* \n\n ˜”*°•.˜”*°•  🎡 *x-ᴛʀᴏɪᴅ ɴɪᴍᴀ*  🎡  •°*”˜.•°*”˜', MessageType.text);
+                    await conn.sendMessage(conn.user.jid,Lang.LOGM_ESPRIVET,MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
