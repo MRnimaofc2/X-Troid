@@ -559,7 +559,7 @@ if (config.WORKTYPE == 'private') {
             mesaj += '\n\n'+' *[🐺]* '+ '*' + video.title + '*'+' \n *❖❯-* ' + video.url + '\n'
         });
 
-        await message.client.sendMessage(message.jid,'╔══════════════╗\n  *🐺 X-TROID NIMA EDITION 🐺* \n     *⚧️ Youtube search enging*\n╚══════════════╝'+mesaj,MessageType.text);
+        await message.client.sendMessage(message.jid,'┏╍╍╍╍╍╍╍🐺 𝙓 𝙏𝙍𝙊𝙄𝘿 🐺╍╍╍╍╍╍╍┓ \n          *📽️]-- YOUTUBE SEARCH ENGINE --[📽️*\n┗╍╍╍╍╍╍☊  ɴɪᴍᴀ ᴇᴅɪᴛɪᴏɴ  ☊╍╍╍╍╍╍┛'+mesaj,MessageType.text);
         await reply.delete();
     }));
 
@@ -1062,7 +1062,7 @@ else if (config.WORKTYPE == 'public') {
             mesaj += '\n\n'+' *[🐺]*'+ ' *' + video.title + '*'+'\n *❖❯-* ' + video.url + '\n'
         });
 
-        await message.client.sendMessage(message.jid,'╔══════════════╗\n  *🐺 X-TROID NIMA EDITION 🐺* \n    *⚧️ Youtube search enging*\n╚══════════════╝'+mesaj,MessageType.text);
+        await message.client.sendMessage(message.jid,'┏╍╍╍╍╍╍╍🐺 𝙓 𝙏𝙍𝙊𝙄𝘿 🐺╍╍╍╍╍╍╍┓ \n          *📽️]-- YOUTUBE SEARCH ENGINE --[📽️*\n┗╍╍╍╍╍╍☊  ɴɪᴍᴀ ᴇᴅɪᴛɪᴏɴ  ☊╍╍╍╍╍╍┛'+mesaj,MessageType.text);
         await reply.delete();
     }));
 
