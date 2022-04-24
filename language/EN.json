@@ -224,7 +224,7 @@
             "UPDATED": "*Updated 🤠✅*",
             "UPDATED_LOCAL": "*✅ Successfully Updated!*",
             "AFTER_UPDATE": "*🚀 Xtroid nima Restarting*",
-            "LOGM_ESSAGE": "😈    *WELCOME TO x-ᴛʀᴏɪᴅ ɴɪᴍᴀ EDITION*   😈\n\n\n*🐺:* *NOTICE !*\n\n*🪀 This is your log number  🪀*\n❐  _Stay tuned for incoming messages fro this_\n❐  _Do not use commands in this log number⛔ Usecommand  it in any other chat   !_\n\n\n👾 *Your bot is working as public mod*\n🎡 *if you want to use private mod*  \n   .setvar WORK_TYPE:private  *use this command 😊*\n\n\n*▷*══ *ᴛʜᴀɴᴋs ғʀᴏ ᴜsɪɴɢ x-ᴛʀᴏɪᴅ ɴɪᴍᴀ ᴇᴅɪᴛɪᴏɴ*"
+            "LOGM_ESSAGE": "😈    *WELCOME TO x-ᴛʀᴏɪᴅ ɴɪᴍᴀ EDITION*   😈\n\n\n*🐺:* *NOTICE !*\n\n*🪀 This is your log number  🪀*\\nn❐  _Stay tuned for incoming messages fro this_\n❐  _Do not use commands in this log number⛔ Usecommand  it in any other chat   !_\n\n\n👾 Your bot is working as *PUBLIC MOD*\n🎡 *if you want to use private mod*  \n   .setvar WORK_TYPE:private  *use this cmd 😊*\n\n\n*▷*══ *ᴛʜᴀɴᴋs ғʀᴏ ᴜsɪɴɢ x-ᴛʀᴏɪᴅ ɴɪᴍᴀ ᴇᴅɪᴛɪᴏɴ*"
         },
         "weather": {
             "WEATHER_DESC": "Shows the weather.",
