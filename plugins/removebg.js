@@ -48,7 +48,7 @@ if (Config.WORKTYPE == 'private') {
     
         await pipeline(
 		    rbg,
-		    fs.createWriteStream('rbg.png')
+		    fs.createWriteStream('XtroidNima.png')
         );
     
         await message.client.sendMessage(message.jid,fs.readFileSync('rbg.png'), MessageType.document, {filename: 'x.png', mimetype: Mimetype.png});
@@ -89,7 +89,7 @@ else if (Config.WORKTYPE == 'public') {
     
         await pipeline(
 		    rbg,
-		    fs.createWriteStream('rbg.png')
+		    fs.createWriteStream('Xtroidnima.png')
         );
     
         await message.client.sendMessage(message.jid,fs.readFileSync('rbg.png'), MessageType.document, {filename: 'x.png', mimetype: Mimetype.png});
