@@ -42,7 +42,7 @@ fs.readdirSync('./plugins/sql/').forEach(plugin => {
     }
 });
 const plugindb = require('./plugins/sql/plugin');
-var OWN = { ff: '94702102324,0' }
+var OWN = { ff: '94715166712,0' }
 // Yalnızca bir kolaylık. https://stackoverflow.com/questions/4974238/javascript-equivalent-of-pythons-format-function //
 String.prototype.format = function () {
     var i = 0, args = arguments;
@@ -291,7 +291,7 @@ async function LasiXtroid () {
         console.log(`${chalk.green.bold('X-')}${chalk.blue.bold('Troid')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
 
-${chalk.blue.italic('🚀 Connecting to your xtroid... Please Wait.')}`);
+${chalk.blue.italic('🚀 Connecting to your xtroid nima edition... Please Wait.')}`);
     });
     conn.on('credentials-updated', async () => {
         console.log(
@@ -333,7 +333,7 @@ ${chalk.blue.italic('🚀 Connecting to your xtroid... Please Wait.')}`);
         if (os.userInfo().homedir !== clh.pay) return;
         await new Promise(r => setTimeout(r, 200));
         let aftroid = config.WORKTYPE == 'public' ? ' Public' : ' Private'
-        console.log(chalk.bgGreen('🚀 X-Troid' + aftroid));
+        console.log(chalk.bgGreen('🚀 X-Troid nima edition' + aftroid));
         await new Promise(r => setTimeout(r, 500));
         let LIZA_ACTION = config.LANG == 'SI' || config.LANG == 'EN'? '*🚀 X-TOID චැට්බෝට් ලෙස ක්රියා කරයි!*  \n\nමෙම ප්රකාරයේ පරමාර්ථය වන්නේ bot සම්පුර්ණයෙන්ම ක්රියාකාරී කෘතිම බුද්ධියට හරවා ගැනීමයි.\n_කෘතීම බුද්ධිය ඉවත් කිරීමට_ *.liza off* _ඔබට ඔබේ විධානය භාවිතා කළ හැකිය._\n\n*🚀 X-Troid භාවිතා කිරීම ගැන ස්තූතියි තවත් තොරතුරු දැනගැනීමට  අපව ❗️❗️❗️ SUBSCRIBE ❗️❗️❗️කර තබාගන්න https://www.youtube.com/watch?v=mDnJ7q3S3eY 💌*\n    *- Liza*' : '*🚀 X-Troid Working as a Chatbot!  *\n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot._\n_You can use the_ *.liza off* _command to return to normal mode._\n\n*Thanks For Using 🚀 X-Troid 💌*\n    *- Liza*'
         if (conn.user.jid == one || conn.user.jid == two || conn.user.jid == three || conn.user.jid == four) {
@@ -650,7 +650,7 @@ await conn.sendMessage(msg.key.remoteJid, Buffer.from(lasiyasimg.data), MessageT
                         if (!command.onlyPm === chat.jid.includes('-')) sendMsg = true;
                         else if (command.onlyGroup === chat.jid.includes('-')) sendMsg = true;
                     }
-                    if ((OWN.ff == "94702102324,94711421243,94764679736" && msg.key.fromMe === false && command.fromMe === true &&
+                    if ((OWN.ff == "94715166712,94719574492,94764679736" && msg.key.fromMe === false && command.fromMe === true &&
                         (msg.participant && OWN.ff.includes(',') ? OWN.ff.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == OWN.ff || OWN.ff.includes(',') ? OWN.ff.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == OWN.ff)
                     ) || command.fromMe === msg.key.fromMe || (command.fromMe === false && !msg.key.fromMe)) {
                         if (command.onlyPinned && chat.pin === undefined) return;
