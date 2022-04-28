@@ -7,7 +7,7 @@ const axios = require('axios');
 let FME = Config.WORKTYPE == 'public' ? false : true
 
 
-    Nima.addCMD({pattern: 'alive', fromMe:FME,dontAddCMDList:true,deleteCommand: false }, (async (message, match) => {
+    Nima.addCMD({pattern: 'nima', fromMe:FME,dontAddCMDList:true,deleteCommand: false }, (async (message, match) => {
 
             var video = await axios.get ('https://telegra.ph/file/037aea176fb5873eefb87.mp4', {responseType: 'arraybuffer'})
 
