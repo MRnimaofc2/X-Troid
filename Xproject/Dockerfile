@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/MRnimaofc2/X-Troid /root/X-Troid
+RUN git clone https://github.com/slrealtech/X-Troid /root/X-Troid
 WORKDIR /root/X-Troid/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
