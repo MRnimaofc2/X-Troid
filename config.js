@@ -54,7 +54,7 @@ module.exports = {
     BANMSG: process.env.BAN_MESSAGE === undefined ? 'default' : process.env.BAN_MESSAGE,
     AFKMSG: process.env.AFK_MESSAGE === undefined ? 'default' : process.env.AFK_MESSAGE,
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
-    GRP_LINK: process.env.GRP_LINK === undefined ? 'default': process.env.GRP_LINK,
+    GRP_LINK: process.env.GRP_LINK === undefined ? '*https://chat.whatsapp.com/Fs5ZpTLA3u64JN5a6K3a44*': process.env.GRP_LINK,
 
 
 
