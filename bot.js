@@ -535,7 +535,7 @@ if (msg.messageStubType === 32 || msg.messageStubType === 28) {
     var gb = await getMessage(msg.key.remoteJid, 'goodbye');
     if (gb !== false) {
         var lasiyasimg = await axios.get(`${config.GIF_BYE}`, { responseType: 'arraybuffer' })
-        await conn.sendMessage(msg.key.remoteJid, Buffer.from(lasiyasimg.data), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message +'\n\n                 ᴾᵒʷᵉʳᵈ ᵇʸ ˣ⁻ᵀʳᵒᶦᵈ'});
+        await conn.sendMessage(msg.key.remoteJid, Buffer.from(lasiyasimg.data), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message +'\n\n nᴘᴏᴡᴇʀᴅ ʙʏ x-ᴛʀᴏɪᴅ | ɴɪᴍᴀ'});
     }
     return;
 } else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
@@ -543,7 +543,7 @@ if (msg.messageStubType === 32 || msg.messageStubType === 28) {
     var gb = await getMessage(msg.key.remoteJid);
     if (gb !== false) {
 var lasiyasimg = await axios.get(`${config.GIF_WEL}`, { responseType: 'arraybuffer' })
-await conn.sendMessage(msg.key.remoteJid, Buffer.from(lasiyasimg.data), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message +'\n\n                 ᴾᵒʷᵉʳᵈ ᵇʸ ˣ⁻ᵀʳᵒᶦᵈ'});
+await conn.sendMessage(msg.key.remoteJid, Buffer.from(lasiyasimg.data), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message +'\n\n ᴘᴏᴡᴇʀᴅ ʙʏ x-ᴛʀᴏɪᴅ | ɴɪᴍᴀ'});
     }
     return;
 }
