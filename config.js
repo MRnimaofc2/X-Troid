@@ -24,7 +24,7 @@ module.exports = {
     CMENUTEXT: process.env.CUSTOMLIST === undefined ?'' : process.env.CUSTOMLIST,
     MENU_IMAGE: process.env.MENUIMG === undefined ?'' : process.env.MENUIMG,
     CAPTION_KEY: process.env.CP === undefined ?'    ⚜ X-Troid Pro ⚜' : process.env.CP,
-    ALIVETEXT: process.env.ALIVEMSG === undefined ?'😈 Admin 😈' : process.env.ALIVEMSG,
+    ALIVETEXT: process.env.ALIVEMSG === undefined ?'\n*[🐺]* ```Hello I am Alive Now```\n\n\n*[⚀]  I am X-troid Nima edition* \n\n\n*[🪀] Join My Main Group*\n```https://chat.whatsapp.com/Fs5ZpTLA3u64JN5a6K3a44```\n\n\n*°°|♥|°°* ```Thanks Fro Using ...```\n\n' : process.env.ALIVEMSG,
     ALIVEIMG: process.env.ALIVEIMG === undefined ? 'https://telegra.ph/file/a143b34753c8434058e87.jpg' : process.env.ALIVEIMG,
     GIF_WEL: process.env.GIF_WEL === undefined ?'https://netfiletolink.herokuapp.com/49353' : process.env.GIF_WEL,
     GIF_BYE: process.env.GIF_BYE === undefined ?'https://webfilesdanuma.herokuapp.com/stream/14' : process.env.GIF_BYE,
