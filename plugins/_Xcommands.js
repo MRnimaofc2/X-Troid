@@ -6,7 +6,7 @@ const {MessageType} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const Language = require('../language');
 const Lang = Language.getString('_xtroid');
-const logo = fs.readFileSync('./media/logo/newl.png')  
+const logo = fs.readFileSync('./media/logo/menu.png')  
 const pro = `
 ─────────────────
 *X-troid WhatsApp Bot is the World Frist Sinhala WhatsApp Bot.This is X-troid Command Panel* \n\n ᴏɴʟʏ ɴɪᴍᴀ 🪀
