@@ -519,15 +519,15 @@ XTroid.addCMD({ pattern: 'art025', fromMe: false, desc: 'MR NIMA ART LIST', dont
     await message.sendMessage(`\n *🎭⚜️ ᴀʀᴛ 25  🎭⚜️*
     
 
-🌙.     *       ☄️      
-🌟   .  *       .         
- *   .      🛰     .        ✨      *
+🌙.     *°       ☄️*      
+🌟   .         .         
+ *.   .      🛰     .        ✨      .*
   .     *   SLEEP WELL        🚀     
       .              . . SWEET DREAMS 🌙
-. *       🌏 GOOD NIGHT         *
+. *.       🌏 GOOD NIGHT         .*
                      🌙.     *       ☄️      
 🌟   .  *       .         
-  *   .      🛰     .        ✨      * \n `);
+  *.   .      🛰     .        ✨      .* \n `);
 
    
 
