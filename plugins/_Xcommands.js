@@ -103,7 +103,7 @@ else if (Config.WORKTYPE == 'public') {
                     HANDLER = '.';
                 }
                 CMD_HELP +='' + Config.MENU_EMOJI+ ' *Cmd :* ' + (match.length >= 3 ? (HANDLER + match[2]) : command.pattern) + (command.desc === '' ? '\n' : '\n');
-                if (command.desc !== '') CMD_HELP += Config.DESC_EMOJI+ ' *Desc :* '+'```'+ + command.desc+'```' + (command.warn === '' ? '\n\n' : '\n');
+                if (command.desc !== '') CMD_HELP += Config.DESC_EMOJI+ ' *Desc :* '+'```'+ command.desc+'```' + (command.warn === '' ? '\n\n' : '\n');
                 if (command.usage !== '') CMD_HELP += '*🀄️ ' + Lang.EXAMPLE + ':* ' + command.usage + '\n\n';
                 if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ' + command.warn + '\n\n';
 
