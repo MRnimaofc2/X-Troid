@@ -176,7 +176,8 @@ XTroid.addCMD({pattern: 'menu ?(.*)', fromMe: true, dontAddCMDList: true}, (asyn
       
         var MENMSG = '\n*🐺 X-TROID NIMA EDITION 🐺*\n\n'+ pro +'\n'+ CMD_HELP
         await new Promise(r=> setTimeout(r,2000));
-        await message.client.sendMessage(message.jid,logo, MessageType.image, {mimetype: logo.png, caption: MENMSG} );     
+        await message.client.sendMessage (message.jid,MENMSG, MessageType.text, {quoted: message.data})
+
     } else {
         var CMD_HELP = '';
         XTroid.commands.map(
