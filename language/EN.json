@@ -560,7 +560,8 @@
                  "FB_DOWN": "*🔄 Downloading your facebook video...*",
                  "FB_UP": "*🐼 Uploading your facebook video...⬆️*",
                  "N_FB": "*⛔Please give a valid fb link*",
-      },          "E_FB": "*⛔There is an error in the link*"
+                 "E_FB": "*⛔There is an error in the link*"
+     },
       "mediafire": {
             "M_DESC":"Download mediafire files.",
             "M_DOWN":"*🔁 Downloading your Mediafire file...*",
