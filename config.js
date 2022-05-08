@@ -28,6 +28,7 @@ module.exports = {
     ALIVEIMG: process.env.ALIVEIMG === undefined ? 'https://telegra.ph/file/a143b34753c8434058e87.jpg' : process.env.ALIVEIMG,
     GIF_WEL: process.env.GIF_WEL === undefined ?'https://netfiletolink.herokuapp.com/49353' : process.env.GIF_WEL,
     GIF_BYE: process.env.GIF_BYE === undefined ?'https://webfilesdanuma.herokuapp.com/stream/14' : process.env.GIF_BYE,
+    DETAILS: process.env.DETAILS === undefined ?'true' : process.env.DETAILS,
 
 
     SESSION: process.env.A_XTROID_SESSION === undefined ? '' : process.env.A_XTROID_SESSION,
@@ -55,6 +56,7 @@ module.exports = {
     AFKMSG: process.env.AFK_MESSAGE === undefined ? 'default' : process.env.AFK_MESSAGE,
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
     GRP_LINK: process.env.GRP_LINK === undefined ? '*https://chat.whatsapp.com/Fs5ZpTLA3u64JN5a6K3a44*': process.env.GRP_LINK,
+
 
 
 
