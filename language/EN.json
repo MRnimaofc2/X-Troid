@@ -568,6 +568,7 @@
             "M_UP":"*✅ Uploading your Mediafire file...*",
             "N_MLINK":"*Please give a  mediafire link 😒*",
             "E_MLINK":"*There is an error in the link💔*"
+      },
          "ban": {
             "pakaya": ".test"
          }
