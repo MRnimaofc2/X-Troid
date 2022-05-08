@@ -550,19 +550,6 @@
             "E_MLINK":"*There is an error in the link💔*"
         
         },
-        "instagram": {
-             "D_VID":"```📥Downloading your Instagram video...```",
-             "U_VID":"```📤Uploading your Instagram video...```",
-             "D_POST":"```📥Downloading your Instagram post...```",
-             "U_POST":"```📤Uploading your Instagram post...```",
-             "N_URL":"*⛔Please give a valid Insta link⛔*",
-             "E_URL":"⛔There is an error in the link⛔",
-             "INSTA_DESC":"Download videos posts from Instagram.",
-             "D_USER":"```📡Fetching user data...```",
-             "E_USER":"*⛔Can not find user⛔*",
-             "N_USER":"*⛔Please enter valid Instagram username.⛔*",
-             "I_DESC":"Fetching Instagram user data"
-       },
           "facebook": {
              "FB_DESC": "Download videos from Facebook",
              "FB_DOWN": "```📥Downloading your facebook video...```",
