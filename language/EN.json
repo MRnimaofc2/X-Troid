@@ -543,24 +543,24 @@
             "UPDATE": "Last Update:"
         },
          "nimainsta": {
-                   "D_VID":"```📥Downloading your Instagram video...```",
-                   "U_VID":"```📤Uploading your Instagram video...```",
-                   "D_POST":"```📥Downloading your Instagram post...```",
-                   "U_POST":"```📤Uploading your Instagram post...```",
-                   "N_URL":"*⛔Please give a valid Insta link⛔*",
-                   "E_URL":"⛔There is an error in the link⛔",
+                   "D_VID":"*🔄 Downloading your Instagram video...*",
+                   "U_VID":"*🐼 Uploading your Instagram video... ⬆️*",
+                   "D_POST":"*🔄 Downloading your Instagram post...*",
+                   "U_POST":"*⬆️ Uploading your Instagram post...*",
+                   "N_URL":"*⛔Please give a valid Insta link*",
+                   "E_URL":"⛔There is an error in the link",
                    "INSTA_DESC":"Download videos posts from Instagram.",
                    "D_USER":"```📡Fetching user data...```",
-                   "E_USER":"*⛔Can not find user⛔*",
-                   "N_USER":"*⛔Please enter valid Instagram username.⛔*",
+                   "E_USER":"*⛔Can not find user*",
+                   "N_USER":"*⛔Please enter valid Instagram username*",
                    "I_DESC":"Fetching Instagram user data"
       },
       "facebook": {
                  "FB_DESC": "Download videos from Facebook",
-                 "FB_DOWN": "```📥Downloading your facebook video...```",
-                 "FB_UP": "```📤Uploading your facebook video...```",
-                 "N_FB": "*⛔Please give a valid fb link⛔*",
-      },          "E_FB": "*⛔There is an error in the link⛔*"
+                 "FB_DOWN": "*🔄 Downloading your facebook video...*",
+                 "FB_UP": "*🐼 Uploading your facebook video...⬆️*",
+                 "N_FB": "*⛔Please give a valid fb link*",
+      },          "E_FB": "*⛔There is an error in the link*"
       "mediafire": {
             "M_DESC":"Download mediafire files.",
             "M_DOWN":"*🔁 Downloading your Mediafire file...*",
