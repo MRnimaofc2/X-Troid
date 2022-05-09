@@ -950,7 +950,7 @@ else if (config.WORKTYPE == 'public') {
         await message.client.sendMessage(message.jid,buffer, MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: true});
     }));
 
-    XTroid.addCMD({pattern: 'song ?(.*)', fromMe: false, desc: Lang.SONG_DESC}, (async (message, match) => { 
+    XTroid.addCMD({pattern: 'songxyz ?(.*)', fromMe: false, desc: Lang.SONG_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_TEXT_SONG,MessageType.text);    
         let arama = await yts(match[1]);
