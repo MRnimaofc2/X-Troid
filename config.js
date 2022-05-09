@@ -58,7 +58,7 @@ module.exports = {
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
     GRP_LINK: process.env.GRP_LINK === undefined ? '*https://chat.whatsapp.com/Fs5ZpTLA3u64JN5a6K3a44*': process.env.GRP_LINK,
     BOT_OWNER_NE: process.env.BOT_OWNER_NE === undefined ?'𝐌𝐑 𝐍𝐈𝐌𝐀' : process.env.BOT_OWNER_NE,
-    TIME_ZONE: process.env.TIME_ZONE === undefined ? 'Asia/Colombo' : process.env.TIME_ZONE,
+    STIME_ZONE: process.env.TIME_ZONE === undefined ? 'Asia/Colombo' : process.env.STIME_ZONE,
 
 
 
