@@ -204,7 +204,7 @@ XTroid.addCMD({pattern: 'demote ?(.*)', fromMe: true, onlyGroup: true, desc: Lan
     }
 }));
 
-XTroid.addCMD({pattern: 'mute ?(.*)', fromMe: true, onlyGroup: true, desc: Lang.MUTE_DESC}, (async (message, match) => {    
+XTroid.addCMD({pattern: 'mute ?(.*)', fromMe: true, onlyGroup: tre, desc: Lang.MUTE_DESC}, (async (message, match) => {    
     var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN,MessageType.text);
 
