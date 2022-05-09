@@ -31,6 +31,7 @@ module.exports = {
     DETAILS: process.env.DETAILS === undefined ?'true' : process.env.DETAILS,
 
 
+
     SESSION: process.env.A_XTROID_SESSION === undefined ? '' : process.env.A_XTROID_SESSION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
@@ -56,7 +57,7 @@ module.exports = {
     AFKMSG: process.env.AFK_MESSAGE === undefined ? 'default' : process.env.AFK_MESSAGE,
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
     GRP_LINK: process.env.GRP_LINK === undefined ? '*https://chat.whatsapp.com/Fs5ZpTLA3u64JN5a6K3a44*': process.env.GRP_LINK,
-
+    BOT_OWNER_NE: process.env.BOT_OWNER_NE === undefined ?'𝐌𝐑 𝐍𝐈𝐌𝐀' : process.env.BOT_OWNER_NE,
 
 
 
