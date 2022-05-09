@@ -88,7 +88,7 @@ XTroid.addCMD({pattern: 'add(?: |$)(.*)', fromMe: true, onlyGroup: true, desc: L
     }
 }));
 
-XTroid.addCMD({pattern: 'promote ?(.*)', fromMe: true, onlyGroup: true, desc: Lang.PROMOTE_DESC}, (async (message, match) => {    
+XTroid.addCMD({pattern: 'promote ?(.*)', fromMe: true, onlyGroup: false, desc: Lang.PROMOTE_DESC}, (async (message, match) => {    
     var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN,MessageType.text);
 
@@ -1581,7 +1581,7 @@ XTroid.addCMD({pattern: 'invite ?(.*)', fromMe: true, onlyGroup: true, desc: Lan
     await message.client.sendMessage(message.jid,Lang.INVITE + ' https://chat.whatsapp.com/' + invite, MessageType.text);
 }));
 
-XTroid.addCMD({pattern: 'invite ?(.*)', fromMe: false, onlyGroup: true, desc: Lang.INVITE_DESC}, (async (message, match) => {    
+XTroid.addCMD({pattern: 'invite ?(.*)', fromMe: false, onlyGroup: false, desc: Lang.INVITE_DESC}, (async (message, match) => {    
     var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN, MessageType.text);
     var invite = await message.client.groupInviteCode(message.jid);
