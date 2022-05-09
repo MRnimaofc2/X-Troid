@@ -222,6 +222,15 @@ XTroid.addCMD({pattern: 'mute ?(.*)', fromMe: true, onlyGroup: false, desc: Lang
             await message.client.groupSettingChange(message.jid, GroupSettingChange.messageSend, false);
             await message.client.sendMessage(message.jid,Lang.UNMUTED,MessageType.text);
         }
+        else if (match[1] == '30s') {
+            await message.client.groupSettingChange(message.jid, GroupSettingChange.messageSend, true);
+            await message.client.sendMessage(message.jid,mut.MUTE1,MessageType.text);
+
+            await new Promise(r => setTimeout(r, 30000));
+    
+            await message.client.groupSettingChange(message.jid, GroupSettingChange.messageSend, false);
+            await message.client.sendMessage(message.jid,Lang.UNMUTED,MessageType.text);
+        }
         else if (match[1] == '2m') {
             await message.client.groupSettingChange(message.jid, GroupSettingChange.messageSend, true);
             await message.client.sendMessage(message.jid,mut.MUTE2,MessageType.text);
