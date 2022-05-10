@@ -560,7 +560,6 @@ if (config.WORKTYPE == 'private') {
         });
 
         await message.client.sendMessage(message.jid,'┏╍╍╍╍╍╍╍🐺 𝙓 𝙏𝙍𝙊𝙄𝘿 🐺╍╍╍╍╍╍╍┓ \n          *📽️]-- YOUTUBE SEARCH ENGINE --[📽️*\n┗╍╍╍╍╍╍☊  ɴɪᴍᴀ ᴇᴅɪᴛɪᴏɴ  ☊╍╍╍╍╍╍┛'+mesaj,MessageType.text);
-        await reply.delete();
     }));
 
     XTroid.addCMD({pattern: 'wiki ?(.*)', fromMe: true, desc: Lang.WIKI_DESC}, (async (message, match) => { 
