@@ -74,7 +74,7 @@ XTroid.addCMD({pattern: 'plugin', fromMe: true, desc: Lang.PLUGIN_DESC }, (async
     } else {
         plugins.map(
             (plugin) => {
-                let vf = plugin.dataValues.url.includes('SLdevilX') ? msg : inmsg
+                let vf = plugin.dataValues.url.includes('MRnimaofc2') ? msg : inmsg
                 mesaj += '```' + plugin.dataValues.name + '```: ' + plugin.dataValues.url + '\n' + vf + '\n\n';
             }
         );
