@@ -178,7 +178,7 @@
         "BOT_OWNER_NE":{
              "description": "Enter your name",
              "required": true,
-             " උබේ නම ගහපන් "
+             "value":" උබේ නම ගහපන් "
         },
         "SONGUPMSG": {
             "description": "Song Uploading message;",
