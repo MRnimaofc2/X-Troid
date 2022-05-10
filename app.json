@@ -175,6 +175,11 @@
             "required": true,
             "value": "\n```🐺 Searching your song...🔄 ```\n "
         },
+        BOT_OWNER_NE":{
+             "description": "Enter your name",
+             "required": true,
+             " උබේ නම ගහපන් "
+        },
         "SONGUPMSG": {
             "description": "Song Uploading message;",
             "required": true,
