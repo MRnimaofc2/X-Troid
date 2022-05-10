@@ -175,7 +175,7 @@
             "required": true,
             "value": "\n```🐺 Searching your song...🔄 ```\n "
         },
-        BOT_OWNER_NE":{
+        "BOT_OWNER_NE":{
              "description": "Enter your name",
              "required": true,
              " උබේ නම ගහපන් "
