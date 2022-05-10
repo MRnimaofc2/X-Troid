@@ -6,4 +6,4 @@ const Ln = "Cpack Logo"
 let FM = Config.WORKTYPE == 'public' ? false : true
 
 
-XTroid.addCMD({pattern: 'anime', fromMe: FM, deleteCommand: false, desc: Ln,}, (async (message, match) => {await message.client.sendMessage(message.jid,CPK, MessageType.text);}));
+XTroid.addCMD({pattern: 'listanimextro', fromMe: FM, deleteCommand: false, desc: Ln,}, (async (message, match) => {await message.client.sendMessage(message.jid,CPK, MessageType.text);}));
