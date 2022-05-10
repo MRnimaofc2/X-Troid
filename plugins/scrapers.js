@@ -1026,7 +1026,7 @@ else if (config.WORKTYPE == 'public') {
         var VID = '';
         try {
             if (match[1].includes('shorts/','watch?v=')) {
-                var tsts = match[1].replace('?feature=share', '')
+                var tsts = match[1].replace('?feature=share', 'shorts/','')
                 var alal = tsts.split('/')[3]
                 VID = alal
             } else {     
