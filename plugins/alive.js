@@ -18,6 +18,6 @@ var nima = '╭─────────────────╮\n├─  *
 
 
 var lasi = await axios.get(`${Config.ALIVEIMG}`, { responseType: 'arraybuffer' })
-await new Promise(r=> setTimeout(r,2000));
-await message.client.sendMessage(message.jid, Buffer.from(lasi.data), MessageType.image, {mimetype: Mimetype.png, caption: nima+ '\n\n' +Config.ALIVETEXT+'\n'})
+await new Promise(r=> setTimeout(r,1500));
+await message.client.sendMessage(message.jid, Buffer.from(lasi.data), MessageType.image, {mimetype: Mimetype.png, caption: nima+ '\n\n' +Config.ALIVETEXT,quoted: message.data})
     }));
