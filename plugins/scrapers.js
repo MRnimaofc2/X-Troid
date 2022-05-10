@@ -1021,7 +1021,8 @@ else if (config.WORKTYPE == 'public') {
     XTroid.addCMD({pattern: 'ytmp4 ?(.*)', fromMe: false, desc: Lang.VIDEO_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_VIDEO,MessageType.text);    
-    
+        if (!match[1].includes('youtu')) return await message.client.sendMessage(message.jid,'\n'+ '```'+'කරුනාකර වීඩියෝ ලින්ක් 1ක් ලබාදෙන්න \n *උදාහරණ:*'+'```'+'.ytmp4 https://youtu.be/cvj3054O5NU'```'+'\n',MessageType.text, {quoted: message.data});
+
         var VID = '';
         try {
             if (match[1].includes('watch','shorts/')) {
