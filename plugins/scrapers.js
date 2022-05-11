@@ -1018,7 +1018,7 @@ else if (config.WORKTYPE == 'public') {
             });
     }));
 
-    XTroid.addCMD({pattern: 'ytmp4 ?(.*)', fromMe: false, desc: Lang.VIDEO_DESC}, (async (message, match) => { 
+    XTroid.addCMD({pattern: 'ytmp4 ?(.*)', fromMe: false}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_VIDEO,MessageType.text);    
         if (!match[1].includes('youtu')) return await message.client.sendMessage(message.jid,'need video link',MessageType.text, {quoted: message.data});
