@@ -21,6 +21,7 @@ Nima.addCMD({pattern: 'song ?(.*)', fromMe: false,desc:'Download your song' ,don
         
       var up = await message.client.sendMessage(message.jid,Config.SONG_UP_TEXT,MessageType.text, {quoted: message.data});
                  await message.client.deleteMessage(message.jid, {id: load.key.id, remoteJid: message.jid, fromMe: true}) ; 
+                await new Promise(r=> setTimeout(r,1000));
                 await message.client.sendMessage(message.jid,Buffer.from(song.data), MessageType.audio, {filename: title2 + '.mp3', mimetype:Mimetype.mp4Audio, ptt: false, quoted: message.data});
                 await message.client.deleteMessage(message.jid, {id: up.key.id, remoteJid: message.jid, fromMe: true}) ;
 
