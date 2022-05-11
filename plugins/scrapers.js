@@ -985,7 +985,7 @@ else if (config.WORKTYPE == 'public') {
     
     
     
-    XTroid.addCMD({pattern: 'ytmp3 ?(.*)', fromMe: false, desc: 'Get song as a mp3 documet'}, (async (message, match) => {
+    XTroid.addCMD({pattern: 'ytmp3 ?(.*)', fromMe: false,}, (async (message, match) => {
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_TEXT_SONG,MessageType.text, {quoted: message.data});    
         let arama = await yts(match[1]);
