@@ -6,7 +6,7 @@ const ytmp3 = require('../mrnima/ytmp3');
 const yts = require( 'yt-search' )
 
 
-Nima.addCMD({pattern: 'song ?(.*)', fromMe: false,desc:'Download your song' ,dontAddCommandList: true, deleteCommand: false}, (async (message, match) => { 
+Nima.addCMD({pattern: 'oldsong ?(.*)', fromMe: false ,dontAddCMDList:true, deleteCommand: false}, (async (message, match) => { 
         
         let arama = await yts(match[1]);
         arama = arama.all;
