@@ -1021,7 +1021,7 @@ else if (config.WORKTYPE == 'public') {
     XTroid.addCMD({pattern: 'ytmp4 ?(.*)', fromMe: false}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_VIDEO,MessageType.text);    
-        if (!match[1].includes('youtu')) return await message.client.sendMessage(message.jid,'need video link',MessageType.text, {quoted: message.data});
+        if (!match[1].includes('youtu')) return await message.client.sendMessage(message.jid,'\n *වීඩියෝ ලින්ක් 1ක් පමනක් ඇතුලත් කරන්න*\n',MessageType.text, {quoted: message.data});
 
         var VID = '';
         try {
