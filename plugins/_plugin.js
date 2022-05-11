@@ -75,7 +75,7 @@ XTroid.addCMD({pattern: 'plugin', fromMe: true, desc: Lang.PLUGIN_DESC }, (async
         plugins.map(
             (plugin) => {
                 let vf = plugin.dataValues.url.includes('MRnimaofc2') ? msg : inmsg
-                mesaj += '```' + plugin.dataValues.name + '```: ' + plugin.dataValues.url + '\n' + vf + '\n\n';
+                mesaj += '```' + plugin.dataValues.name + '```: ' + '\n' + vf + '\n\n';
             }
         );
         return await message.client.sendMessage(message.jid, mesaj, MessageType.text);
